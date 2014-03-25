@@ -729,23 +729,23 @@ class DefaultStaticConfig extends LoadedConfig
 		$this->devices->sl_firefox4_win7->desiredCapabilities['platform'] = "Windows 7";
 		$this->devices->sl_firefox4_win7->desiredCapabilities['version'] = "4";
 
-		$this->devices->sl_firefox3.6_win7 = new BaseObject;
-		$this->devices->sl_firefox3.6_win7->adapter = 'SauceLabsWebDriver';
-		$this->devices->sl_firefox3.6_win7->browser = 'firefox';
-		$this->devices->sl_firefox3.6_win7->desiredCapabilities['platform'] = "Windows 7";
-		$this->devices->sl_firefox3.6_win7->desiredCapabilities['version'] = "3.6";
+		$this->devices->sl_firefox3_6_win7 = new BaseObject;
+		$this->devices->sl_firefox3_6_win7->adapter = 'SauceLabsWebDriver';
+		$this->devices->sl_firefox3_6_win7->browser = 'firefox';
+		$this->devices->sl_firefox3_6_win7->desiredCapabilities['platform'] = "Windows 7";
+		$this->devices->sl_firefox3_6_win7->desiredCapabilities['version'] = "3.6";
 
-		$this->devices->sl_firefox3.5_win7 = new BaseObject;
-		$this->devices->sl_firefox3.5_win7->adapter = 'SauceLabsWebDriver';
-		$this->devices->sl_firefox3.5_win7->browser = 'firefox';
-		$this->devices->sl_firefox3.5_win7->desiredCapabilities['platform'] = "Windows 7";
-		$this->devices->sl_firefox3.5_win7->desiredCapabilities['version'] = "3.5";
+		$this->devices->sl_firefox3_5_win7 = new BaseObject;
+		$this->devices->sl_firefox3_5_win7->adapter = 'SauceLabsWebDriver';
+		$this->devices->sl_firefox3_5_win7->browser = 'firefox';
+		$this->devices->sl_firefox3_5_win7->desiredCapabilities['platform'] = "Windows 7";
+		$this->devices->sl_firefox3_5_win7->desiredCapabilities['version'] = "3.5";
 
-		$this->devices->sl_firefox3.0_win7 = new BaseObject;
-		$this->devices->sl_firefox3.0_win7->adapter = 'SauceLabsWebDriver';
-		$this->devices->sl_firefox3.0_win7->browser = 'firefox';
-		$this->devices->sl_firefox3.0_win7->desiredCapabilities['platform'] = "Windows 7";
-		$this->devices->sl_firefox3.0_win7->desiredCapabilities['version'] = "3.0";
+		$this->devices->sl_firefox3_0_win7 = new BaseObject;
+		$this->devices->sl_firefox3_0_win7->adapter = 'SauceLabsWebDriver';
+		$this->devices->sl_firefox3_0_win7->browser = 'firefox';
+		$this->devices->sl_firefox3_0_win7->desiredCapabilities['platform'] = "Windows 7";
+		$this->devices->sl_firefox3_0_win7->desiredCapabilities['version'] = "3.0";
 
 		$this->devices->sl_chromeb_win7 = new BaseObject;
 		$this->devices->sl_chromeb_win7->adapter = 'SauceLabsWebDriver';
@@ -994,23 +994,23 @@ class DefaultStaticConfig extends LoadedConfig
 		$this->devices->sl_firefox4_winxp->desiredCapabilities['platform'] = "Windows XP";
 		$this->devices->sl_firefox4_winxp->desiredCapabilities['version'] = "4";
 
-		$this->devices->sl_firefox3.6_winxp = new BaseObject;
-		$this->devices->sl_firefox3.6_winxp->adapter = 'SauceLabsWebDriver';
-		$this->devices->sl_firefox3.6_winxp->browser = 'firefox';
-		$this->devices->sl_firefox3.6_winxp->desiredCapabilities['platform'] = "Windows XP";
-		$this->devices->sl_firefox3.6_winxp->desiredCapabilities['version'] = "3.6";
+		$this->devices->sl_firefox3_6_winxp = new BaseObject;
+		$this->devices->sl_firefox3_6_winxp->adapter = 'SauceLabsWebDriver';
+		$this->devices->sl_firefox3_6_winxp->browser = 'firefox';
+		$this->devices->sl_firefox3_6_winxp->desiredCapabilities['platform'] = "Windows XP";
+		$this->devices->sl_firefox3_6_winxp->desiredCapabilities['version'] = "3.6";
 
-		$this->devices->sl_firefox3.5_winxp = new BaseObject;
-		$this->devices->sl_firefox3.5_winxp->adapter = 'SauceLabsWebDriver';
-		$this->devices->sl_firefox3.5_winxp->browser = 'firefox';
-		$this->devices->sl_firefox3.5_winxp->desiredCapabilities['platform'] = "Windows XP";
-		$this->devices->sl_firefox3.5_winxp->desiredCapabilities['version'] = "3.5";
+		$this->devices->sl_firefox3_5_winxp = new BaseObject;
+		$this->devices->sl_firefox3_5_winxp->adapter = 'SauceLabsWebDriver';
+		$this->devices->sl_firefox3_5_winxp->browser = 'firefox';
+		$this->devices->sl_firefox3_5_winxp->desiredCapabilities['platform'] = "Windows XP";
+		$this->devices->sl_firefox3_5_winxp->desiredCapabilities['version'] = "3.5";
 
-		$this->devices->sl_firefox3.0_winxp = new BaseObject;
-		$this->devices->sl_firefox3.0_winxp->adapter = 'SauceLabsWebDriver';
-		$this->devices->sl_firefox3.0_winxp->browser = 'firefox';
-		$this->devices->sl_firefox3.0_winxp->desiredCapabilities['platform'] = "Windows XP";
-		$this->devices->sl_firefox3.0_winxp->desiredCapabilities['version'] = "3.0";
+		$this->devices->sl_firefox3_0_winxp = new BaseObject;
+		$this->devices->sl_firefox3_0_winxp->adapter = 'SauceLabsWebDriver';
+		$this->devices->sl_firefox3_0_winxp->browser = 'firefox';
+		$this->devices->sl_firefox3_0_winxp->desiredCapabilities['platform'] = "Windows XP";
+		$this->devices->sl_firefox3_0_winxp->desiredCapabilities['version'] = "3.0";
 
 		$this->devices->sl_chromeb_winxp = new BaseObject;
 		$this->devices->sl_chromeb_winxp->adapter = 'SauceLabsWebDriver';
